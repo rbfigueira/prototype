@@ -10,11 +10,11 @@
 		392CDC791C6E0A500099E53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC781C6E0A500099E53D /* AppDelegate.swift */; };
 		392CDC7B1C6E0A500099E53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC7A1C6E0A500099E53D /* ViewController.swift */; };
 		392CDC7E1C6E0A500099E53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392CDC7C1C6E0A500099E53D /* Main.storyboard */; };
-		392CDC811C6E0A500099E53D /* Prototype_Adevon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC7F1C6E0A500099E53D /* Prototype_Adevon.xcdatamodeld */; };
+		392CDC811C6E0A500099E53D /* Prototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC7F1C6E0A500099E53D /* Prototype.xcdatamodeld */; };
 		392CDC831C6E0A500099E53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392CDC821C6E0A500099E53D /* Assets.xcassets */; };
 		392CDC861C6E0A500099E53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392CDC841C6E0A500099E53D /* LaunchScreen.storyboard */; };
-		392CDC911C6E0A510099E53D /* Prototype_AdevonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC901C6E0A510099E53D /* Prototype_AdevonTests.swift */; };
-		392CDC9C1C6E0A510099E53D /* Prototype_AdevonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC9B1C6E0A510099E53D /* Prototype_AdevonUITests.swift */; };
+		392CDC911C6E0A510099E53D /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC901C6E0A510099E53D /* PrototypeTests.swift */; };
+		392CDC9C1C6E0A510099E53D /* PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC9B1C6E0A510099E53D /* PrototypeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		392CDC751C6E0A500099E53D /* Prototype_Adevon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype_Adevon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392CDC751C6E0A500099E53D /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392CDC781C6E0A500099E53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		392CDC7A1C6E0A500099E53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		392CDC7D1C6E0A500099E53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		392CDC801C6E0A500099E53D /* Prototype_Adevon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prototype_Adevon.xcdatamodel; sourceTree = "<group>"; };
+		392CDC801C6E0A500099E53D /* Prototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prototype.xcdatamodel; sourceTree = "<group>"; };
 		392CDC821C6E0A500099E53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		392CDC851C6E0A500099E53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		392CDC871C6E0A500099E53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		392CDC8C1C6E0A500099E53D /* Prototype_AdevonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype_AdevonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		392CDC901C6E0A510099E53D /* Prototype_AdevonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_AdevonTests.swift; sourceTree = "<group>"; };
+		392CDC8C1C6E0A500099E53D /* Prototype.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392CDC901C6E0A510099E53D /* PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeTests.swift; sourceTree = "<group>"; };
 		392CDC921C6E0A510099E53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		392CDC971C6E0A510099E53D /* Prototype_AdevonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype_AdevonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		392CDC9B1C6E0A510099E53D /* Prototype_AdevonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_AdevonUITests.swift; sourceTree = "<group>"; };
+		392CDC971C6E0A510099E53D /* Prototype.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392CDC9B1C6E0A510099E53D /* PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITests.swift; sourceTree = "<group>"; };
 		392CDC9D1C6E0A510099E53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		392CDC6C1C6E0A500099E53D = {
 			isa = PBXGroup;
 			children = (
-				392CDC771C6E0A500099E53D /* Prototype_Adevon */,
-				392CDC8F1C6E0A500099E53D /* Prototype_AdevonTests */,
-				392CDC9A1C6E0A510099E53D /* Prototype_AdevonUITests */,
+				392CDC771C6E0A500099E53D /* Prototype */,
+				392CDC8F1C6E0A500099E53D /* PrototypeTests */,
+				392CDC9A1C6E0A510099E53D /* PrototypeUITests */,
 				392CDC761C6E0A500099E53D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		392CDC761C6E0A500099E53D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				392CDC751C6E0A500099E53D /* Prototype_Adevon.app */,
-				392CDC8C1C6E0A500099E53D /* Prototype_AdevonTests.xctest */,
-				392CDC971C6E0A510099E53D /* Prototype_AdevonUITests.xctest */,
+				392CDC751C6E0A500099E53D /* Prototype.app */,
+				392CDC8C1C6E0A500099E53D /* Prototype.xctest */,
+				392CDC971C6E0A510099E53D /* Prototype.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		392CDC771C6E0A500099E53D /* Prototype_Adevon */ = {
+		392CDC771C6E0A500099E53D /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
 				392CDC781C6E0A500099E53D /* AppDelegate.swift */,
@@ -105,35 +105,38 @@
 				392CDC821C6E0A500099E53D /* Assets.xcassets */,
 				392CDC841C6E0A500099E53D /* LaunchScreen.storyboard */,
 				392CDC871C6E0A500099E53D /* Info.plist */,
-				392CDC7F1C6E0A500099E53D /* Prototype_Adevon.xcdatamodeld */,
+				392CDC7F1C6E0A500099E53D /* Prototype.xcdatamodeld */,
 			);
+			name = Prototype;
 			path = Prototype_Adevon;
 			sourceTree = "<group>";
 		};
-		392CDC8F1C6E0A500099E53D /* Prototype_AdevonTests */ = {
+		392CDC8F1C6E0A500099E53D /* PrototypeTests */ = {
 			isa = PBXGroup;
 			children = (
-				392CDC901C6E0A510099E53D /* Prototype_AdevonTests.swift */,
+				392CDC901C6E0A510099E53D /* PrototypeTests.swift */,
 				392CDC921C6E0A510099E53D /* Info.plist */,
 			);
+			name = PrototypeTests;
 			path = Prototype_AdevonTests;
 			sourceTree = "<group>";
 		};
-		392CDC9A1C6E0A510099E53D /* Prototype_AdevonUITests */ = {
+		392CDC9A1C6E0A510099E53D /* PrototypeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				392CDC9B1C6E0A510099E53D /* Prototype_AdevonUITests.swift */,
+				392CDC9B1C6E0A510099E53D /* PrototypeUITests.swift */,
 				392CDC9D1C6E0A510099E53D /* Info.plist */,
 			);
+			name = PrototypeUITests;
 			path = Prototype_AdevonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		392CDC741C6E0A500099E53D /* Prototype_Adevon */ = {
+		392CDC741C6E0A500099E53D /* Prototype */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 392CDCA01C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype_Adevon" */;
+			buildConfigurationList = 392CDCA01C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype" */;
 			buildPhases = (
 				392CDC711C6E0A500099E53D /* Sources */,
 				392CDC721C6E0A500099E53D /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Prototype_Adevon;
+			name = Prototype;
 			productName = Prototype_Adevon;
-			productReference = 392CDC751C6E0A500099E53D /* Prototype_Adevon.app */;
+			productReference = 392CDC751C6E0A500099E53D /* Prototype.app */;
 			productType = "com.apple.product-type.application";
 		};
-		392CDC8B1C6E0A500099E53D /* Prototype_AdevonTests */ = {
+		392CDC8B1C6E0A500099E53D /* PrototypeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 392CDCA31C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype_AdevonTests" */;
+			buildConfigurationList = 392CDCA31C6E0A510099E53D /* Build configuration list for PBXNativeTarget "PrototypeTests" */;
 			buildPhases = (
 				392CDC881C6E0A500099E53D /* Sources */,
 				392CDC891C6E0A500099E53D /* Frameworks */,
@@ -161,14 +164,14 @@
 			dependencies = (
 				392CDC8E1C6E0A500099E53D /* PBXTargetDependency */,
 			);
-			name = Prototype_AdevonTests;
+			name = PrototypeTests;
 			productName = Prototype_AdevonTests;
-			productReference = 392CDC8C1C6E0A500099E53D /* Prototype_AdevonTests.xctest */;
+			productReference = 392CDC8C1C6E0A500099E53D /* Prototype.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		392CDC961C6E0A510099E53D /* Prototype_AdevonUITests */ = {
+		392CDC961C6E0A510099E53D /* PrototypeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 392CDCA61C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype_AdevonUITests" */;
+			buildConfigurationList = 392CDCA61C6E0A510099E53D /* Build configuration list for PBXNativeTarget "PrototypeUITests" */;
 			buildPhases = (
 				392CDC931C6E0A510099E53D /* Sources */,
 				392CDC941C6E0A510099E53D /* Frameworks */,
@@ -179,9 +182,9 @@
 			dependencies = (
 				392CDC991C6E0A510099E53D /* PBXTargetDependency */,
 			);
-			name = Prototype_AdevonUITests;
+			name = PrototypeUITests;
 			productName = Prototype_AdevonUITests;
-			productReference = 392CDC971C6E0A510099E53D /* Prototype_AdevonUITests.xctest */;
+			productReference = 392CDC971C6E0A510099E53D /* Prototype.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 392CDC701C6E0A500099E53D /* Build configuration list for PBXProject "Prototype_Adevon" */;
+			buildConfigurationList = 392CDC701C6E0A500099E53D /* Build configuration list for PBXProject "Prototype" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				392CDC741C6E0A500099E53D /* Prototype_Adevon */,
-				392CDC8B1C6E0A500099E53D /* Prototype_AdevonTests */,
-				392CDC961C6E0A510099E53D /* Prototype_AdevonUITests */,
+				392CDC741C6E0A500099E53D /* Prototype */,
+				392CDC8B1C6E0A500099E53D /* PrototypeTests */,
+				392CDC961C6E0A510099E53D /* PrototypeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				392CDC7B1C6E0A500099E53D /* ViewController.swift in Sources */,
-				392CDC811C6E0A500099E53D /* Prototype_Adevon.xcdatamodeld in Sources */,
+				392CDC811C6E0A500099E53D /* Prototype.xcdatamodeld in Sources */,
 				392CDC791C6E0A500099E53D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392CDC911C6E0A510099E53D /* Prototype_AdevonTests.swift in Sources */,
+				392CDC911C6E0A510099E53D /* PrototypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392CDC9C1C6E0A510099E53D /* Prototype_AdevonUITests.swift in Sources */,
+				392CDC9C1C6E0A510099E53D /* PrototypeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		392CDC8E1C6E0A500099E53D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 392CDC741C6E0A500099E53D /* Prototype_Adevon */;
+			target = 392CDC741C6E0A500099E53D /* Prototype */;
 			targetProxy = 392CDC8D1C6E0A500099E53D /* PBXContainerItemProxy */;
 		};
 		392CDC991C6E0A510099E53D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 392CDC741C6E0A500099E53D /* Prototype_Adevon */;
+			target = 392CDC741C6E0A500099E53D /* Prototype */;
 			targetProxy = 392CDC981C6E0A510099E53D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +412,7 @@
 				INFOPLIST_FILE = Prototype_Adevon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbfigueira.Prototype-Adevon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Prototype;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -423,7 +426,7 @@
 				INFOPLIST_FILE = Prototype_Adevon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbfigueira.Prototype-Adevon";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Prototype;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -435,8 +438,8 @@
 				INFOPLIST_FILE = Prototype_AdevonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbfigueira.Prototype-AdevonTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototype_Adevon.app/Prototype_Adevon";
+				PRODUCT_NAME = Prototype;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototype.app/Prototype";
 			};
 			name = Debug;
 		};
@@ -447,8 +450,8 @@
 				INFOPLIST_FILE = Prototype_AdevonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbfigueira.Prototype-AdevonTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototype_Adevon.app/Prototype_Adevon";
+				PRODUCT_NAME = Prototype;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototype.app/Prototype";
 			};
 			name = Release;
 		};
@@ -458,7 +461,7 @@
 				INFOPLIST_FILE = Prototype_AdevonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbfigueira.Prototype-AdevonUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Prototype;
 				TEST_TARGET_NAME = Prototype_Adevon;
 				USES_XCTRUNNER = YES;
 			};
@@ -470,7 +473,7 @@
 				INFOPLIST_FILE = Prototype_AdevonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbfigueira.Prototype-AdevonUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Prototype;
 				TEST_TARGET_NAME = Prototype_Adevon;
 				USES_XCTRUNNER = YES;
 			};
@@ -479,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		392CDC701C6E0A500099E53D /* Build configuration list for PBXProject "Prototype_Adevon" */ = {
+		392CDC701C6E0A500099E53D /* Build configuration list for PBXProject "Prototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				392CDC9E1C6E0A510099E53D /* Debug */,
@@ -488,40 +491,43 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		392CDCA01C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype_Adevon" */ = {
+		392CDCA01C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				392CDCA11C6E0A510099E53D /* Debug */,
 				392CDCA21C6E0A510099E53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		392CDCA31C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype_AdevonTests" */ = {
+		392CDCA31C6E0A510099E53D /* Build configuration list for PBXNativeTarget "PrototypeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				392CDCA41C6E0A510099E53D /* Debug */,
 				392CDCA51C6E0A510099E53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		392CDCA61C6E0A510099E53D /* Build configuration list for PBXNativeTarget "Prototype_AdevonUITests" */ = {
+		392CDCA61C6E0A510099E53D /* Build configuration list for PBXNativeTarget "PrototypeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				392CDCA71C6E0A510099E53D /* Debug */,
 				392CDCA81C6E0A510099E53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		392CDC7F1C6E0A500099E53D /* Prototype_Adevon.xcdatamodeld */ = {
+		392CDC7F1C6E0A500099E53D /* Prototype.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				392CDC801C6E0A500099E53D /* Prototype_Adevon.xcdatamodel */,
+				392CDC801C6E0A500099E53D /* Prototype.xcdatamodel */,
 			);
-			currentVersion = 392CDC801C6E0A500099E53D /* Prototype_Adevon.xcdatamodel */;
-			path = Prototype_Adevon.xcdatamodeld;
+			currentVersion = 392CDC801C6E0A500099E53D /* Prototype.xcdatamodel */;
+			path = Prototype.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

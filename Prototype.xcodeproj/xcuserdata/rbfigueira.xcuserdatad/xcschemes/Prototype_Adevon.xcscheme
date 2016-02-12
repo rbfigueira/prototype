@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "392CDC741C6E0A500099E53D"
-               BuildableName = "Prototype_Adevon.app"
-               BlueprintName = "Prototype_Adevon"
-               ReferencedContainer = "container:Prototype_Adevon.xcodeproj">
+               BuildableName = "Prototype.app"
+               BlueprintName = "Prototype"
+               ReferencedContainer = "container:Prototype.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "392CDC8B1C6E0A500099E53D"
-               BuildableName = "Prototype_AdevonTests.xctest"
-               BlueprintName = "Prototype_AdevonTests"
-               ReferencedContainer = "container:Prototype_Adevon.xcodeproj">
+               BuildableName = "Prototype.xctest"
+               BlueprintName = "PrototypeTests"
+               ReferencedContainer = "container:Prototype.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "392CDC961C6E0A510099E53D"
-               BuildableName = "Prototype_AdevonUITests.xctest"
-               BlueprintName = "Prototype_AdevonUITests"
-               ReferencedContainer = "container:Prototype_Adevon.xcodeproj">
+               BuildableName = "Prototype.xctest"
+               BlueprintName = "PrototypeUITests"
+               ReferencedContainer = "container:Prototype.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "392CDC741C6E0A500099E53D"
-            BuildableName = "Prototype_Adevon.app"
-            BlueprintName = "Prototype_Adevon"
-            ReferencedContainer = "container:Prototype_Adevon.xcodeproj">
+            BuildableName = "Prototype.app"
+            BlueprintName = "Prototype"
+            ReferencedContainer = "container:Prototype.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "392CDC741C6E0A500099E53D"
-            BuildableName = "Prototype_Adevon.app"
-            BlueprintName = "Prototype_Adevon"
-            ReferencedContainer = "container:Prototype_Adevon.xcodeproj">
+            BuildableName = "Prototype.app"
+            BlueprintName = "Prototype"
+            ReferencedContainer = "container:Prototype.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "392CDC741C6E0A500099E53D"
-            BuildableName = "Prototype_Adevon.app"
-            BlueprintName = "Prototype_Adevon"
-            ReferencedContainer = "container:Prototype_Adevon.xcodeproj">
+            BuildableName = "Prototype.app"
+            BlueprintName = "Prototype"
+            ReferencedContainer = "container:Prototype.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
