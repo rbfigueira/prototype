@@ -25,15 +25,24 @@ class ViewController: UIViewController {
     
     
     @IBAction func pressButtonDidPress(sender: AnyObject) {
-        twitterButton.transform = CGAffineTransformMakeTranslation(0, 200)
-        emailButton.transform = CGAffineTransformMakeTranslation(0, 200)
-        loveButton.transform = CGAffineTransformMakeTranslation(0, 200)
+        twitterButton.transform = CGAffineTransformMakeTranslation(0, 50)
+        emailButton.transform = CGAffineTransformMakeTranslation(0, 50)
+        loveButton.transform = CGAffineTransformMakeTranslation(0, 50)
         
         twitterButton.alpha = 0
         emailButton.alpha = 0
         loveButton.alpha = 0
         
         UIView.animateWithDuration(0.72, delay: 0.0, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
+            
+            self.loveButton.transform = CGAffineTransformMakeTranslation(0, 0)
+            self.loveButton.alpha = 1
+            
+            }, completion: { finished in
+                
+        })
+        
+        UIView.animateWithDuration(0.72, delay: 0.11, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
             
             self.twitterButton.transform = CGAffineTransformMakeTranslation(0, 0)
             self.twitterButton.alpha = 1
@@ -42,19 +51,10 @@ class ViewController: UIViewController {
                 
         })
         
-        UIView.animateWithDuration(0.72, delay: 0.11, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
+        UIView.animateWithDuration(0.72, delay: 0.22, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
             
             self.emailButton.transform = CGAffineTransformMakeTranslation(0, 0)
             self.emailButton.alpha = 1
-            
-            }, completion: { finished in
-                
-        })
-        
-        UIView.animateWithDuration(0.72, delay: 0.22, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
-            
-            self.loveButton.transform = CGAffineTransformMakeTranslation(0, 0)
-            self.loveButton.alpha = 1
             
             }, completion: { finished in
                 

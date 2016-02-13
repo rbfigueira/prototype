@@ -2,16 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "twitter.png",
+      "filename" : "20140821_193953.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "twitter-1.png",
+      "filename" : "20140821_193953-1.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "20140821_193953-2.jpg",
       "scale" : "3x"
     }
   ],
