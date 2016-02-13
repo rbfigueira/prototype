@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39172F8B1C6F8550005C0E57 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39172F8A1C6F8550005C0E57 /* Animations.swift */; };
 		392CDC791C6E0A500099E53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC781C6E0A500099E53D /* AppDelegate.swift */; };
 		392CDC7B1C6E0A500099E53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CDC7A1C6E0A500099E53D /* ViewController.swift */; };
 		392CDC7E1C6E0A500099E53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392CDC7C1C6E0A500099E53D /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39172F8A1C6F8550005C0E57 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		392CDC751C6E0A500099E53D /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392CDC781C6E0A500099E53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		392CDC7A1C6E0A500099E53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				392CDC781C6E0A500099E53D /* AppDelegate.swift */,
 				392CDC7A1C6E0A500099E53D /* ViewController.swift */,
+				39172F8A1C6F8550005C0E57 /* Animations.swift */,
 				392CDC7C1C6E0A500099E53D /* Main.storyboard */,
 				392CDC821C6E0A500099E53D /* Assets.xcassets */,
 				392CDC841C6E0A500099E53D /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			files = (
 				392CDC7B1C6E0A500099E53D /* ViewController.swift in Sources */,
 				392CDC811C6E0A500099E53D /* Prototype.xcdatamodeld in Sources */,
+				39172F8B1C6F8550005C0E57 /* Animations.swift in Sources */,
 				392CDC791C6E0A500099E53D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

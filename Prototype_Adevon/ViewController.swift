@@ -33,32 +33,22 @@ class ViewController: UIViewController {
         emailButton.alpha = 0
         loveButton.alpha = 0
         
-        UIView.animateWithDuration(0.72, delay: 0.0, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
-            
+        
+        springWithDelay(0.72, delay: 0.00, damping: 0.42, velocity: 0.1, animations: {
             self.loveButton.transform = CGAffineTransformMakeTranslation(0, 0)
             self.loveButton.alpha = 1
-            
-            }, completion: { finished in
-                
         })
         
-        UIView.animateWithDuration(0.72, delay: 0.11, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
-            
+        springWithDelay(0.72, delay: 0.11, damping: 0.42, velocity: 0.1, animations: {
             self.twitterButton.transform = CGAffineTransformMakeTranslation(0, 0)
             self.twitterButton.alpha = 1
-            
-            }, completion: { finished in
-                
         })
         
-        UIView.animateWithDuration(0.72, delay: 0.22, usingSpringWithDamping: 0.42, initialSpringVelocity: 0.1, options: [], animations: {
-            
+        springWithDelay(0.72, delay: 0.22, damping: 0.42, velocity: 0.1, animations: {
             self.emailButton.transform = CGAffineTransformMakeTranslation(0, 0)
             self.emailButton.alpha = 1
-            
-            }, completion: { finished in
-                
         })
+        
 
       }
 
